@@ -1,1 +1,2 @@
 # Happy-Ladybugs
+This C# program determines if a string of ladybugs on a board can be made "happy," meaning every ladybug has at least one identical neighbor. The `happyLadybugs` function counts occurrences of each color and checks for singletons, which make happiness impossible. If there are empty spaces (`'_'`), ladybugs can be rearranged; otherwise, it verifies that each ladybug is already adjacent to a matching color. The `Main` method handles multiple test cases, reads the input strings, calls the function, and prints "YES" or "NO" accordingly.
